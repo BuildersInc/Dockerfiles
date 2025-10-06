@@ -1,3 +1,9 @@
+# docker build -t ros-ssh-ubuntu -f ros_ssh.Dockerfile
+#
+# docker run -d -p 22000:22000 --name ros-ssh-ubu ros-ssh-ubuntu
+#                  ^^^^^^^^^^^ -> SSH Port
+# TODO: Ros add Ros Port
+
 # Use Ubuntu 22.04 as base
 FROM ubuntu:22.04
 
@@ -62,4 +68,3 @@ WORKDIR /workspace
 
 # Default command: run SSH server
 CMD ["/usr/sbin/sshd", "-D"]
-

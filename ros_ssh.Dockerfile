@@ -3,6 +3,9 @@
 # docker run -d -p 22000:22000 --name ros-ssh-ubu ros-ssh-ubuntu
 #                  ^^^^^^^^^^^ -> SSH Port
 # TODO: Ros add Ros Port
+# TODO: Add Persistent storage
+# TODO: Copy SSH-Keys into the Container
+#
 
 # Use Ubuntu 22.04 as base
 FROM ubuntu:22.04

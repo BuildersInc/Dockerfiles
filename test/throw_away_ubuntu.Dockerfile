@@ -10,8 +10,6 @@ FROM ubuntu:24.04
 
 # In the docker env
 # wget http://host.docker.internal:8000/<file>
-# wget -r -np -nH --cut-dirs=0 http://host.docker.internal:8000/foldername/
-
 
 ENV DEBIAN_FRONTEND=noninteractive
 
